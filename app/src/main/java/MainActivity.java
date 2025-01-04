@@ -23,24 +23,24 @@ public class MainActivity extends AppCompatActivity {
         cardMenabung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Menabung clicked", Toast.LENGTH_SHORT).show();
-                // Add your logic or start an activity for Menabung
+                Intent intent = new Intent(MainActivity.this, MenabungActivity.class);
+                startActivity(intent);
             }
         });
 
         cardPemasukan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Pemasukan clicked", Toast.LENGTH_SHORT).show();
-                // Add your logic or start an activity for Pemasukan
+                Intent intent = new Intent(MainActivity.this, PemasukanActivity.class);
+                startActivity(intent);
             }
         });
 
         cardPengeluaran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Pengeluaran clicked", Toast.LENGTH_SHORT).show();
-                // Add your logic or start an activity for Pengeluaran
+                Intent intent = new Intent(MainActivity.this, PengeluaranActivity.class);
+                startActivity(intent);
             }
         });
     }

@@ -16,7 +16,7 @@
 
         <!-- Splash Activity set as the launcher -->
         <activity
-            android:name=".SplashActivity"
+            android:name="SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +26,20 @@
 
         <!-- Main Activity -->
         <activity
-            android:name=".MainActivity"
+            android:name="MainActivity"
+            android:exported="true" />
+
+        <!-- Menabung Activity -->
+        <activity
+            android:name="MenabungActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".PemasukanActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".PengeluaranActivity"
             android:exported="true" />
     </application>
 
