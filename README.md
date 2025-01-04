@@ -1,4 +1,4 @@
-# Uts Pemogramanan Mobile
+# UAS Pemogramanan Mobile
 
 #  📖 Pembukuan
 
