@@ -127,7 +127,7 @@ Launcher Icon ini bertujuan untuk segera mengkomunikasikan tujuan aplikasi Pembu
 
 ## Cara Menggunakan Aplikasi
 1. **Instal Aplikasi:**
-- Pastikan aplikasi telah diinstal di perangkat Android Anda melalui file APK atau dari Google Play Store.
+- Pastikan aplikasi telah diinstal di perangkat Android Anda melalui file APK.
 2. **Buka Aplikasi:**
 - Temukan ikon aplikasi di layar utama atau dalam daftar aplikasi Anda, lalu ketuk untuk membukanya.
 3. **Navigasi ke Fitur Utama:**
